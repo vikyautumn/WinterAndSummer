@@ -18,7 +18,6 @@ public class Solution {
         //searching where summer starts
         for (int i = k; i < T.length; i++){
             if (lastMax < T[i]){
-                lastMax = T[i];
                 days = i;
                 break;
             }       
